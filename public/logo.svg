@@ -1,4 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1005" height="358.458" viewBox="0 0 1005 358.458"><defs><style>.a,.c{fill:#0ceb73;}.a{font-size:254px;}.a,.b,.f{font-family:Chewy-Regular, Chewy;}.b,.e{fill:#114865;}.b{font-size:255px;}.d{fill:#e2055f;}.f{fill:#e2005f;font-size:109px;}</style></defs><g transform="translate(-131 -1798.542)"><g transform="translate(61.49 1759)"><text class="a" transform="translate(69.51 320)"><tspan x="0" y="0">my</tspan></text><text class="b" transform="translate(369.51 321)"><tspan x="0" y="0">Bubble</tspan></text></g><g transform="translate(131.653 -539)"><path class="c" d="M37.4,1.725c21.744-6.6,37.4,15.061,37.4,35.719A37.4,37.4,0,1,1,0,37.444C0,16.786,15.66,8.32,37.4,1.725Z" transform="translate(665.181 2337.023)"/><path class="d" d="M29.608,0a29.421,29.421,0,0,1,0,58.843c-16.249,0-34.232-7.011-29.421-29.421S13.359,0,29.608,0Z" transform="matrix(-0.966, -0.259, 0.259, -0.966, 649.365, 2447.851)"/><path class="e" d="M24.067,0C37.359,0,41.934,11.025,48.134,24.067S37.359,48.134,24.067,48.134A24.067,24.067,0,0,1,24.067,0Z" transform="matrix(-0.966, -0.259, 0.259, -0.966, 805.717, 2423)"/></g><text class="f" transform="translate(999 1914)"><tspan x="0" y="0">Tee</tspan>
-</text>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 996 353" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+  <g transform="matrix(1,0,0,1,-7.53442,0.00142383)">
+    <g transform="matrix(1,0,0,1,-131,-1798.54)">
+      <g transform="matrix(1,0,0,1,61.49,1759)">
+        <g transform="matrix(1,0,0,1,69.51,320)">
+          <text x="0px" y="0px" style="font-family:'Chewy-Regular', 'Chewy';font-size:254px;fill:rgb(12,235,115);">my</text>
+        </g>
+        <g transform="matrix(1,0,0,1,369.51,321)">
+          <text x="0px" y="0px" style="font-family:'Chewy-Regular', 'Chewy';font-size:255px;fill:rgb(17,72,101);">Bubble</text>
+        </g>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-131,-1798.54)">
+      <g transform="matrix(1,0,0,1,131.653,-539)">
+        <g transform="matrix(1,0,0,1,665.181,2337.02)">
+          <path d="M37.4,1.725C59.144,-4.875 74.8,16.786 74.8,37.444C74.8,57.961 57.917,74.844 37.4,74.844C16.883,74.844 0,57.961 0,37.444C0,16.786 15.66,8.32 37.4,1.725Z" style="fill:rgb(12,235,115);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(-0.966,-0.259,0.259,-0.966,649.365,2447.85)">
+          <path d="M29.608,0C45.748,-0 59.029,13.281 59.03,29.421C59.03,45.562 45.748,58.843 29.608,58.843C13.359,58.843 -4.624,51.832 0.187,29.422C4.998,7.012 13.359,0 29.608,0Z" style="fill:rgb(226,5,95);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(-0.966,-0.259,0.259,-0.966,805.717,2423)">
+          <path d="M24.067,0C37.359,0 41.934,11.025 48.134,24.067C54.334,37.109 37.359,48.134 24.067,48.134C10.864,48.134 0,37.27 0,24.067C-0,10.864 10.864,0 24.067,0Z" style="fill:rgb(17,72,101);fill-rule:nonzero;"/>
+        </g>
+      </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-131,-1798.54)">
+      <g transform="matrix(1,0,0,1,999,1914)">
+        <text x="0px" y="0px" style="font-family:'Chewy-Regular', 'Chewy';font-size:109px;fill:rgb(226,0,95);">T<tspan x="38.427px 87.285px " y="0px 0px ">ee</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
 </svg>

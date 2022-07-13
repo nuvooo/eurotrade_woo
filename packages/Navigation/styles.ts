@@ -14,8 +14,11 @@ export const NavigationWrapper = styled.nav`
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     & li {
       margin-left: 12px;
+      margin-bottom: 12px;
       display: flex;
       align-items: center;
       background: #ffffff;
