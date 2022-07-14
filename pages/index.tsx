@@ -19,7 +19,7 @@ const Home: NextPage = () => {
               return (
                 <ProductBox
                   key={key}
-                  xs={12}
+                  xs={6}
                   sm={6}
                   md={4}
                   lg={3}
@@ -28,7 +28,7 @@ const Home: NextPage = () => {
                     url: 'https://picsum.photos/600/80' + key,
                     alt: 'alt',
                   }}
-                  price={1220.99}
+                  price={122000.99}
                   brand="test"
                   rates={{ rate: 4.3, count: 2 }}
                   banner={[

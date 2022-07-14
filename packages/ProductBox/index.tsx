@@ -8,7 +8,7 @@ import {
   ProductBoxRatingWrapper,
   ProductBoxImage,
 } from './styles'
-import { Rating } from '@mui/material'
+import { Rating, Typography } from '@mui/material'
 import { Grid, GridProps, Button, ButtonBase, Box } from '@mui/material'
 import StarIcon from '@mui/icons-material/Star'
 
@@ -95,14 +95,34 @@ const ProductBox: React.FC<ProductBoxProps> = ({
           <ProductBoxImage alt={image.alt} src={image.url} layout="fill" />
         </Box>
       </ButtonBase>
-      <Grid container my={1.5} p={0.75}>
-        <ProductBoxTitle>{name}</ProductBoxTitle>
-        <ProductBoxPrice>
+      <Grid container my={1.5} p={0.75} direction="row">
+        <Grid
+          item
+          sm={12}
+          md
+          component={ProductBoxTitle}
+          mb={2}
+          sx={{ marginBottom: { md: 0 } }}
+        >
+          <Typography variant="h6" component="span">
+            {name}
+          </Typography>
+        </Grid>
+        <Grid
+          item
+          container
+          sm={12}
+          md={4}
+          component={ProductBoxPrice}
+          direction="column"
+        >
           <span className={'displayed-price'}>
             {price.toLocaleString(locales, { style: 'currency', currency })}
           </span>
-          <span className={'displayed-tax'}>{tax.text}</span>
-        </ProductBoxPrice>
+          <Typography className={'displayed-tax'} component="span">
+            {tax.text}
+          </Typography>
+        </Grid>
       </Grid>
       {/* {brand && <ProductBoxBrand>{brand}</ProductBoxBrand>} */}
       <Button

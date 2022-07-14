@@ -10,7 +10,6 @@ export const ProductBoxWrapper = styled.div`
 `
 
 export const ProductBoxTitle = styled.div`
-  width: 50%;
   font-size: 1.2rem;
   line-height: 1.25rem;
   font-weight: bold;
@@ -18,7 +17,6 @@ export const ProductBoxTitle = styled.div`
 `
 
 export const ProductBoxPrice = styled.div`
-  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -35,6 +33,7 @@ export const ProductBoxPrice = styled.div`
     margin-top: 0.2rem;
     font-size: 0.65rem;
     font-weight: light;
+    margin-top: -2px;
   }
 `
 
@@ -43,6 +42,7 @@ export const ProductBoxBanner = styled.div`
   right: 20px;
   top: 20px;
   display: flex;
+  flex-wrap: wrap;
   z-index: 999;
   & span {
     padding: 4px 12px;
@@ -50,6 +50,7 @@ export const ProductBoxBanner = styled.div`
     font-size: 0.65rem;
     font-weight: 600;
     margin-left: 6px;
+    margin-bottom: 6px;
   }
   & .banner-new {
     background: #37bc4f;
