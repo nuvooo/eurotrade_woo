@@ -37,13 +37,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-
-      - name: Check formatting
-        run: yarn run format:check
-
       - name: Cypress run
-        uses: cypress-io/github-action@v4
-        with:
-          browser: chrome
+        run: pnpm cy:ct
+
+      - name: Code Coverage
+        run: npx nyc report --reporter=text-summary
