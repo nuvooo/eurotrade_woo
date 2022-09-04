@@ -47,16 +47,16 @@
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
     "hash": "5dacb7445757aa2affd570881198cb800df3397f"
   },
-  "/Users/sebastianangelone/Documents/eurotrade_woo/packages/ecommerce-ui/Price/styles.ts": {
-    "path": "/Users/sebastianangelone/Documents/eurotrade_woo/packages/ecommerce-ui/Price/styles.ts",
+  "/Users/sebastianangelone/Documents/eurotrade_woo/packages/ecommerce-ui/ProductDetail/styles.ts": {
+    "path": "/Users/sebastianangelone/Documents/eurotrade_woo/packages/ecommerce-ui/ProductDetail/styles.ts",
     "statementMap": {
       "0": {
         "start": {
-          "line": 3,
-          "column": 28
+          "line": 4,
+          "column": 36
         },
         "end": {
-          "line": 19,
+          "line": 9,
           "column": 1
         }
       }
@@ -69,28 +69,48 @@
     "f": {},
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "8d0f62082432b20da6d60dc1d8f0822ad04ce5d5"
+    "hash": "4b295d6caf42e117052ea097b3ea4fdec734b4d7"
   },
-  "/Users/sebastianangelone/Documents/eurotrade_woo/packages/ecommerce-ui/Price/index.tsx": {
-    "path": "/Users/sebastianangelone/Documents/eurotrade_woo/packages/ecommerce-ui/Price/index.tsx",
+  "/Users/sebastianangelone/Documents/eurotrade_woo/packages/ecommerce-ui/ProductDetail/index.tsx": {
+    "path": "/Users/sebastianangelone/Documents/eurotrade_woo/packages/ecommerce-ui/ProductDetail/index.tsx",
     "statementMap": {
       "0": {
         "start": {
-          "line": 11,
-          "column": 36
+          "line": 31,
+          "column": 52
         },
         "end": {
-          "line": 27,
+          "line": 43,
           "column": 1
         }
       },
       "1": {
         "start": {
-          "line": 17,
+          "line": 32,
+          "column": 21
+        },
+        "end": {
+          "line": 36,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 37,
+          "column": 38
+        },
+        "end": {
+          "line": 37,
+          "column": 59
+        }
+      },
+      "3": {
+        "start": {
+          "line": 38,
           "column": 2
         },
         "end": {
-          "line": 26,
+          "line": 42,
           "column": 3
         }
       }
@@ -100,155 +120,39 @@
         "name": "(anonymous_0)",
         "decl": {
           "start": {
-            "line": 11,
-            "column": 36
+            "line": 31,
+            "column": 52
           },
           "end": {
-            "line": 11,
-            "column": 37
+            "line": 31,
+            "column": 53
           }
         },
         "loc": {
           "start": {
-            "line": 16,
-            "column": 26
+            "line": 31,
+            "column": 78
           },
           "end": {
-            "line": 27,
+            "line": 43,
             "column": 1
           }
         },
-        "line": 16
+        "line": 31
       }
     },
-    "branchMap": {
-      "0": {
-        "loc": {
-          "start": {
-            "line": 12,
-            "column": 2
-          },
-          "end": {
-            "line": 12,
-            "column": 13
-          }
-        },
-        "type": "default-arg",
-        "locations": [
-          {
-            "start": {
-              "line": 12,
-              "column": 10
-            },
-            "end": {
-              "line": 12,
-              "column": 13
-            }
-          }
-        ],
-        "line": 12
-      },
-      "1": {
-        "loc": {
-          "start": {
-            "line": 13,
-            "column": 2
-          },
-          "end": {
-            "line": 13,
-            "column": 18
-          }
-        },
-        "type": "default-arg",
-        "locations": [
-          {
-            "start": {
-              "line": 13,
-              "column": 13
-            },
-            "end": {
-              "line": 13,
-              "column": 18
-            }
-          }
-        ],
-        "line": 13
-      },
-      "2": {
-        "loc": {
-          "start": {
-            "line": 14,
-            "column": 2
-          },
-          "end": {
-            "line": 14,
-            "column": 19
-          }
-        },
-        "type": "default-arg",
-        "locations": [
-          {
-            "start": {
-              "line": 14,
-              "column": 12
-            },
-            "end": {
-              "line": 14,
-              "column": 19
-            }
-          }
-        ],
-        "line": 14
-      },
-      "3": {
-        "loc": {
-          "start": {
-            "line": 15,
-            "column": 2
-          },
-          "end": {
-            "line": 15,
-            "column": 14
-          }
-        },
-        "type": "default-arg",
-        "locations": [
-          {
-            "start": {
-              "line": 15,
-              "column": 12
-            },
-            "end": {
-              "line": 15,
-              "column": 14
-            }
-          }
-        ],
-        "line": 15
-      }
-    },
+    "branchMap": {},
     "s": {
       "0": 2,
-      "1": 2
+      "1": 2,
+      "2": 2,
+      "3": 2
     },
     "f": {
       "0": 2
     },
-    "b": {
-      "0": [
-        0
-      ],
-      "1": [
-        2
-      ],
-      "2": [
-        2
-      ],
-      "3": [
-        2
-      ]
-    },
+    "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "238d81bddb2ba2c01392808c5b02766d0d3b9663"
+    "hash": "8ca84ced547eff00a9118d6f0e01850e1f5f7a84"
   }
 }
