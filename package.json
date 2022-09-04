@@ -42,5 +42,8 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
+  },
+  "nyc": {
+    "report-dir": "cypress-coverage"
   }
 }
