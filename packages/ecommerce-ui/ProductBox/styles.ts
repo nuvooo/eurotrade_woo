@@ -1,5 +1,6 @@
 import styled from '@emotion/styled'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export const ProductBoxWrapper = styled.div`
   width: 100%;
@@ -7,6 +8,10 @@ export const ProductBoxWrapper = styled.div`
   position: relative;
   padding: 12px;
   cursor: pointer;
+  & a {
+    text-decoration: none;
+    color: #171717;
+  }
 `
 
 export const ProductBoxTitle = styled.div`

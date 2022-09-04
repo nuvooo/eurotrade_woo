@@ -19,6 +19,9 @@ html {
 }
 
 body {
+    margin: 0px;
+    padding: 0px;
+    color:#171717;
   font-family: 'Montserrat', sans-serif;
   background: ${(props: LayoutProps) =>
     props.mode !== 'dark'

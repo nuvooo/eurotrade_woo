@@ -7,9 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "cy:ct": "cypress open --component --browser chrome",
-    "cy:run": "cypress run --component --browser chrome",
-    "cong": "cypress run --record --key 32290bde-1178-4851-8808-8f10dab42cc6",
+    "cy": "cypress open --component --browser electron",
+    "cy:ct": "cypress run --component --browser chrome",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -26,10 +25,12 @@
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
+    "@cypress/code-coverage": "^3.10.0",
     "@types/node": "18.0.3",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
     "babel-plugin-inline-react-svg": "^2.0.1",
+    "babel-plugin-istanbul": "^6.1.1",
     "babel-plugin-styled-components": "^2.0.7",
     "cypress": "^10.3.0",
     "eslint": "8.19.0",

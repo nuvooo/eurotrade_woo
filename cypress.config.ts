@@ -3,17 +3,15 @@ import { defineConfig } from 'cypress'
 export default defineConfig({
   videoCompression: 15,
   projectId: 'kvgcsa',
-
   component: {
     devServer: {
       framework: 'next',
       bundler: 'webpack',
     },
-  },
-
-  e2e: {
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      require('@cypress/code-coverage/task')(on, config)
+      return config
     },
   },
+  e2e: {},
 })

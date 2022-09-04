@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+####### "cong": "cypress run --record --key 32290bde-1178-4851-8808-8f10dab42cc6",
+
 First, run the development server:
 
 ```bash
