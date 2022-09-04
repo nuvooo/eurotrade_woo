@@ -7,7 +7,7 @@
 cypress-coverage
 # testing
 /coverage
-.nyc_output
+.nyc_output/*
 # next.js
 /.next/
 /out/
