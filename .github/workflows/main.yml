@@ -39,6 +39,3 @@ jobs:
 
       - name: Cypress run
         run: pnpm cy:ct
-
-      - name: Code Coverage
-        run: npx nyc report --reporter=text-summary
